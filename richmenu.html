@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #fff; }
+.menu {
+  width: 2500px;
+  height: 843px;
+  display: flex;
+  font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+}
+.item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-right: 3px solid rgba(255,255,255,0.3);
+}
+.item:last-child { border-right: none; }
+.item-1 { background: linear-gradient(135deg, #0f3460, #1a1a2e); }
+.item-2 { background: linear-gradient(135deg, #06C755, #04a847); }
+.item-3 { background: linear-gradient(135deg, #FF6B35, #e55a2b); }
+.icon {
+  font-size: 120px;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+.label {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  letter-spacing: 2px;
+}
+.sub {
+  color: rgba(255,255,255,0.85);
+  font-size: 36px;
+  font-weight: 400;
+}
+</style>
+</head>
+<body>
+<div class="menu">
+  <div class="item item-1">
+    <div class="icon">💰</div>
+    <div class="label">料金を見る</div>
+    <div class="sub">基本料金4,400円〜</div>
+  </div>
+  <div class="item item-2">
+    <div class="icon">💬</div>
+    <div class="label">見積り依頼</div>
+    <div class="sub">LINE割引2,000円OFF</div>
+  </div>
+  <div class="item item-3">
+    <div class="icon">📞</div>
+    <div class="label">電話する</div>
+    <div class="sub">24時間対応</div>
+  </div>
+</div>
+</body>
+</html>
