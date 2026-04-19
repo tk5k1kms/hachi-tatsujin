@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>蜂駆除は蜂の達人｜千葉・東京・埼玉・神奈川・茨城｜050-1724-4656</title>
+<meta name="description" content="蜂の巣駆除は蜂の達人にお任せください。基本料金4,400円〜、最短30分到着、LINE友だち追加で2,000円割引。24時間365日受付・6ヶ月再発保証付き。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=M+PLUS+1p:wght@700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --orange:#e8730a;
+  --orange-dk:#c05c00;
+  --orange-light:#fff3e0;
+  --red:#e70635;
+  --red-dk:#b30028;
+  --yellow:#ffd54f;
+  --yellow-dk:#f5b800;
+  --gold:#d4a017;
+  --cream:#fdf5e6;
+  --green:#4caf50;
+  --green-dk:#2e7d32;
+  --dark:#333333;
+  --gray:#666;
+  --light:#f5f5f5;
+  --line:#06c755;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'M PLUS 1p','Noto Sans JP',sans-serif;
+  color:var(--dark);background:#fff;
+  line-height:1.8;-webkit-font-smoothing:antialiased;
+  padding-bottom:84px;font-size:15px;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* === TOPバー === */
+.top-strip{
+  background:var(--dark);color:#fff;font-size:12px;
+  padding:6px 16px;text-align:center;letter-spacing:.05em;
+}
+
+/* === ヘッダー === */
+.header{
+  background:#fff;border-bottom:2px solid var(--orange);
+  position:sticky;top:0;z-index:50;
+}
+.header-inner{
+  max-width:1200px;margin:0 auto;padding:10px 16px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.header-logo{display:flex;align-items:center;gap:10px}
+.header-logo img{height:50px;border-radius:50%;background:#fff;padding:2px}
+.header-logo .name{font-weight:900;font-size:22px;color:var(--dark);letter-spacing:.05em}
+.header-tel{display:flex;align-items:center;gap:10px}
+.header-tel .ic{
+  width:48px;height:48px;background:var(--orange);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;color:#fff;
+}
+.header-tel .info{text-align:right}
+.header-tel .hours{
+  display:inline-block;background:var(--yellow);color:var(--dark);
+  font-size:10px;font-weight:900;padding:2px 6px;border-radius:3px;margin-right:4px;
+}
+.header-tel .sub{font-size:11px;color:var(--gray)}
+.header-tel .num{display:block;font-size:24px;font-weight:900;color:var(--dark);letter-spacing:1px;line-height:1.2}
+
+/* === エリア帯 === */
+.area-band{
+  background:var(--green);color:#fff;text-align:center;
+  padding:12px 16px;font-weight:900;font-size:16px;letter-spacing:.05em;
+}
+.area-band .tag{
+  display:inline-block;background:#fff;color:var(--green-dk);
+  padding:4px 12px;margin-right:10px;border-radius:4px;font-size:14px;
+}
+
+/* === ヒーロー === */
+.hero{
+  background:
+    linear-gradient(rgba(253,245,230,.85),rgba(253,245,230,.85)),
+    repeating-linear-gradient(135deg,#fff 0 18px,#faeccc 18px 36px);
+  padding:40px 16px 50px;position:relative;overflow:hidden;
+}
+.hero-inner{max-width:1120px;margin:0 auto}
+.hero-grid{display:grid;grid-template-columns:1fr;gap:24px;align-items:center}
+@media(min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr;gap:40px}}
+.hero-tag{
+  display:inline-block;background:#fff;color:var(--dark);
+  font-size:18px;font-weight:900;padding:8px 20px;margin-bottom:14px;
+  box-shadow:2px 4px 0 var(--dark);transform:rotate(-2deg);
+}
+.hero h1{
+  font-size:clamp(28px,5vw,50px);font-weight:900;line-height:1.2;
+  margin-bottom:16px;letter-spacing:.02em;position:relative;
+}
+.hero h1 .line1{color:var(--orange);display:block;font-size:.55em;margin-bottom:8px}
+.hero h1 .line2{
+  color:var(--red);
+  text-shadow:3px 3px 0 var(--yellow), 5px 5px 0 var(--dark);
+  display:inline-block;
+}
+.hero h1 .line3{
+  color:var(--red);
+  text-shadow:3px 3px 0 var(--yellow), 5px 5px 0 var(--dark);
+  display:inline-block;
+  font-size:1.15em;
+}
+.hero-badge-circle{
+  position:absolute;top:-16px;left:-16px;
+  width:120px;height:120px;background:var(--yellow);
+  color:var(--dark);border-radius:50%;font-weight:900;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  box-shadow:0 4px 0 var(--yellow-dk);font-size:13px;line-height:1.2;
+  transform:rotate(-8deg);text-align:center;
+}
+.hero-badge-circle .big{font-size:34px;line-height:1}
+.hero-badges{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:10px;
+  margin:24px 0;max-width:480px;
+}
+.hero-badge{
+  aspect-ratio:1/1;border-radius:50%;
+  background:radial-gradient(circle at 35% 35%,#ffdb70,#d4a017 75%);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  box-shadow:inset 0 0 0 3px rgba(255,255,255,.5),0 2px 6px rgba(0,0,0,.2);
+  text-align:center;color:#fff;
+  text-shadow:1px 1px 0 rgba(0,0,0,.3);
+}
+.hero-badge .k{font-size:20px;font-weight:900;line-height:1}
+.hero-badge .v{font-size:9px;font-weight:700;margin-top:4px;letter-spacing:.05em}
+.hero-price{
+  display:flex;align-items:stretch;background:var(--dark);color:#fff;
+  border-radius:8px;overflow:hidden;max-width:420px;
+  box-shadow:0 4px 12px rgba(0,0,0,.3);
+}
+.hero-price .lbl{
+  background:var(--red);padding:14px 18px;font-weight:900;font-size:17px;
+  display:flex;align-items:center;letter-spacing:.05em;
+}
+.hero-price .val{
+  padding:10px 20px;flex:1;display:flex;align-items:center;gap:6px;
+}
+.hero-price .num{font-size:42px;font-weight:900;line-height:1;letter-spacing:-.02em}
+.hero-price .yen{font-size:18px;font-weight:900}
+.hero-price .tax{font-size:11px;color:#ccc}
+.hero-visual{position:relative}
+.hero-visual img{
+  width:100%;border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+/* === キャンペーン === */
+.campaign{
+  background:var(--orange);color:#fff;
+  padding:40px 16px;text-align:center;position:relative;
+}
+.campaign::before,.campaign::after{
+  content:"";position:absolute;left:0;right:0;height:8px;
+  background:repeating-linear-gradient(-45deg,var(--yellow) 0 12px,var(--orange) 12px 24px);
+}
+.campaign::before{top:0}
+.campaign::after{bottom:0}
+.campaign-inner{max-width:880px;margin:0 auto;position:relative}
+.campaign .label{
+  font-size:13px;letter-spacing:.3em;margin-bottom:8px;
+  display:inline-block;padding:4px 20px;
+  border-top:1px solid rgba(255,255,255,.4);border-bottom:1px solid rgba(255,255,255,.4);
+}
+.campaign h2{font-size:28px;font-weight:900;margin-bottom:14px;letter-spacing:.05em}
+.campaign .price-big{font-size:20px;margin-bottom:24px}
+.campaign .price-big .mega{font-size:72px;font-weight:900;color:var(--yellow);text-shadow:3px 3px 0 var(--dark);letter-spacing:-.02em;display:inline-block;margin:0 4px}
+.campaign-ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.btn-line{
+  background:var(--line);color:#fff;padding:16px 34px;
+  border-radius:40px;font-weight:900;font-size:17px;
+  display:inline-flex;align-items:center;gap:10px;
+  box-shadow:0 5px 0 #05a547;
+}
+.btn-tel{
+  background:#fff;color:var(--dark);padding:16px 34px;
+  border-radius:40px;font-weight:900;font-size:17px;
+  display:inline-flex;align-items:center;gap:10px;
+  box-shadow:0 5px 0 #ccc;
+}
+.campaign-stamp{
+  position:absolute;right:20px;top:-18px;
+  background:var(--yellow);color:var(--dark);
+  width:80px;height:80px;border-radius:50%;font-weight:900;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  font-size:14px;line-height:1.2;text-align:center;
+  box-shadow:0 4px 0 var(--yellow-dk);
+  transform:rotate(10deg);
+}
+
+/* === 悩みセクション === */
+.worries{
+  background:
+    linear-gradient(rgba(30,30,30,.92),rgba(30,30,30,.92)),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100'><circle cx='50' cy='50' r='2' fill='%23444'/></svg>");
+  color:#fff;padding:64px 16px;text-align:center;
+}
+.worries h2{
+  font-size:clamp(24px,4vw,36px);font-weight:900;margin-bottom:40px;
+  letter-spacing:.05em;
+}
+.worries h2 .stress{color:var(--yellow)}
+.worries-list{max-width:720px;margin:0 auto;text-align:left}
+.worries-item{
+  display:flex;align-items:flex-start;gap:16px;
+  padding:16px 0;border-bottom:1px dashed #555;
+}
+.worries-item .chk{
+  background:var(--yellow);color:var(--dark);width:40px;height:40px;
+  border-radius:6px;display:flex;align-items:center;justify-content:center;
+  font-size:24px;font-weight:900;flex-shrink:0;
+}
+.worries-item p{font-size:18px;color:#fff;padding-top:4px;font-weight:700}
+.worries-cta{
+  max-width:720px;margin:40px auto 0;padding:28px 24px;background:var(--orange);
+  border-radius:12px;text-align:center;
+}
+.worries-cta h3{font-size:20px;margin-bottom:14px}
+.worries-cta .strong{color:var(--yellow);font-size:28px;display:block;margin-top:6px}
+
+/* === 5つの理由 === */
+.reasons{
+  background:linear-gradient(180deg,#fff7d6,#fff);padding:64px 16px;
+}
+.reasons-title{
+  max-width:640px;margin:0 auto 48px;text-align:center;
+  background:linear-gradient(135deg,#b8902e,#d4a017 50%,#b8902e);
+  color:#fff;border:3px solid #fff;padding:32px 20px;border-radius:12px;
+  box-shadow:0 0 0 4px var(--gold),0 8px 24px rgba(0,0,0,.15);
+}
+.reasons-title .label{font-size:18px;font-weight:900;letter-spacing:.08em}
+.reasons-title .big{font-size:60px;font-weight:900;margin:8px 0;font-family:'M PLUS 1p',sans-serif}
+.reasons-title .sub{font-size:16px;font-weight:700}
+.reasons-list{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:32px}
+.reason{
+  display:grid;grid-template-columns:80px 1fr;gap:20px;align-items:start;
+  background:#fff;border:1px solid #eee;border-radius:12px;padding:24px;
+  box-shadow:0 4px 12px rgba(0,0,0,.05);
+}
+.reason-num{
+  background:var(--gold);color:#fff;border-radius:8px;padding:10px;text-align:center;
+}
+.reason-num .lbl{font-size:11px;font-weight:900;letter-spacing:.1em}
+.reason-num .n{font-size:32px;font-weight:900;line-height:1}
+.reason-body h3{
+  font-size:22px;font-weight:900;margin-bottom:10px;color:var(--gold);
+  border-bottom:2px solid var(--gold);padding-bottom:8px;line-height:1.4;
+}
+.reason-body p{font-size:14px;color:var(--dark);line-height:1.9}
+
+/* === 料金 === */
+.price-section{background:#fff;padding:64px 16px}
+.sec-head{text-align:center;margin-bottom:40px}
+.sec-head .label{
+  display:inline-block;color:var(--orange);font-size:13px;
+  letter-spacing:.3em;margin-bottom:8px;font-weight:900;
+}
+.sec-head h2{
+  font-size:clamp(26px,4vw,36px);font-weight:900;position:relative;display:inline-block;
+  padding:0 20px;
+}
+.sec-head h2::before,.sec-head h2::after{
+  content:"";position:absolute;top:50%;width:28px;height:3px;background:var(--orange);
+}
+.sec-head h2::before{left:-28px}
+.sec-head h2::after{right:-28px}
+.sec-head .note{color:var(--gray);font-size:14px;margin-top:10px}
+
+.bee-grid{
+  display:grid;grid-template-columns:1fr;gap:20px;
+  max-width:1080px;margin:0 auto;
+}
+@media(min-width:720px){.bee-grid{grid-template-columns:repeat(3,1fr)}}
+.bee-card{
+  background:#fff;border:2px solid #eee;border-radius:12px;overflow:hidden;
+  position:relative;transition:transform .2s,box-shadow .2s;
+}
+.bee-card:hover{transform:translateY(-4px);box-shadow:0 10px 24px rgba(0,0,0,.1)}
+.bee-card.highlight{border-color:var(--orange)}
+.bee-card .ribbon{
+  position:absolute;top:12px;left:-4px;
+  background:var(--red);color:#fff;padding:4px 14px;
+  font-size:12px;font-weight:900;letter-spacing:.1em;
+  box-shadow:2px 3px 0 rgba(0,0,0,.2);z-index:2;
+}
+.bee-card .ribbon::before{
+  content:"";position:absolute;bottom:-6px;left:0;
+  border-top:6px solid var(--red-dk);border-left:4px solid transparent;
+}
+.bee-card img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.bee-card-body{padding:20px}
+.bee-card .kind{font-size:11px;color:var(--gray);letter-spacing:.2em;font-weight:700}
+.bee-card h3{font-size:24px;font-weight:900;margin:4px 0 12px}
+.bee-card .price{
+  background:var(--cream);padding:12px 16px;border-radius:8px;
+  display:flex;align-items:baseline;justify-content:center;gap:4px;margin-bottom:14px;
+}
+.bee-card .price .lbl{font-size:12px;color:var(--gray);font-weight:700;margin-right:8px}
+.bee-card .price .num{font-size:32px;font-weight:900;color:var(--red);line-height:1}
+.bee-card .price .yen{font-size:16px;font-weight:900;color:var(--red)}
+.bee-card ul{list-style:none}
+.bee-card li{
+  font-size:13px;padding:6px 0 6px 22px;position:relative;color:var(--dark);
+}
+.bee-card li::before{
+  content:"✓";position:absolute;left:0;top:6px;color:var(--orange);font-weight:900;font-size:14px;
+}
+
+/* === 流れ === */
+.flow-section{background:var(--light);padding:64px 16px}
+.flow-grid{
+  max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:16px;
+}
+@media(min-width:720px){.flow-grid{grid-template-columns:repeat(4,1fr)}}
+.flow-step{
+  background:#fff;border-radius:12px;padding:24px 20px;
+  position:relative;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.05);
+}
+.flow-step .n{
+  display:inline-flex;width:56px;height:56px;border-radius:50%;
+  background:var(--orange);color:#fff;font-weight:900;font-size:22px;
+  align-items:center;justify-content:center;margin-bottom:14px;
+  box-shadow:0 3px 0 var(--orange-dk);
+}
+.flow-step h3{font-size:17px;font-weight:900;margin-bottom:8px}
+.flow-step p{font-size:13px;color:var(--gray);line-height:1.8}
+.flow-step::after{
+  content:"▶";position:absolute;right:-14px;top:50%;transform:translateY(-50%);
+  color:var(--orange);font-size:24px;
+}
+.flow-step:last-child::after{display:none}
+@media(max-width:719px){.flow-step::after{display:none}}
+
+/* === 保証 === */
+.guarantee{
+  background:var(--dark);color:#fff;padding:56px 16px;text-align:center;
+}
+.guarantee .seal{
+  display:inline-flex;width:140px;height:140px;border-radius:50%;
+  background:var(--red);color:#fff;font-weight:900;
+  flex-direction:column;align-items:center;justify-content:center;
+  border:4px solid var(--yellow);box-shadow:0 0 0 4px var(--red);
+  margin-bottom:20px;letter-spacing:.05em;
+}
+.guarantee .seal .n{font-size:44px;line-height:1}
+.guarantee .seal .l{font-size:14px;margin-top:4px}
+.guarantee h2{font-size:26px;font-weight:900;margin-bottom:14px}
+.guarantee p{font-size:15px;color:#ddd;line-height:2;max-width:640px;margin:0 auto}
+
+/* === FAQ === */
+.faq-section{background:#fff;padding:64px 16px}
+.faq-list{max-width:780px;margin:0 auto}
+.faq-item{border:1px solid #eee;border-radius:8px;margin-bottom:12px;overflow:hidden}
+.faq-q{
+  padding:18px 20px;font-size:15px;font-weight:900;cursor:pointer;
+  display:flex;align-items:center;background:var(--cream);color:var(--dark);
+}
+.faq-q .q{
+  background:var(--orange);color:#fff;width:32px;height:32px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:16px;margin-right:12px;
+  flex-shrink:0;
+}
+.faq-q .arrow{margin-left:auto;color:var(--orange);font-size:24px;transition:transform .3s}
+.faq-item[open] .arrow{transform:rotate(45deg)}
+.faq-a{padding:18px 20px 18px 64px;font-size:14px;color:var(--gray);line-height:1.9;background:#fff}
+.faq-a .a{
+  background:var(--yellow);color:var(--dark);width:24px;height:24px;border-radius:50%;
+  display:inline-flex;align-items:center;justify-content:center;font-size:13px;
+  margin-right:8px;font-weight:900;vertical-align:middle;
+}
+
+/* === 最終CTA === */
+.final-cta{
+  background:var(--line);color:#fff;padding:48px 16px;text-align:center;
+}
+.final-cta h2{font-size:26px;font-weight:900;margin-bottom:6px}
+.final-cta .off{font-size:44px;font-weight:900;color:var(--yellow);margin:8px 0;text-shadow:2px 2px 0 rgba(0,0,0,.2)}
+.final-cta p{font-size:14px;margin-bottom:20px}
+.final-cta-btn{
+  display:inline-block;background:#fff;color:var(--line);
+  padding:18px 44px;border-radius:40px;font-size:18px;font-weight:900;
+  box-shadow:0 5px 0 rgba(0,0,0,.1);
+}
+
+/* === 事業情報 === */
+.info-section{background:#fff;padding:48px 16px}
+.info-grid{max-width:600px;margin:0 auto;background:var(--cream);border-radius:12px;padding:28px 24px}
+.info-row{display:flex;padding:12px 0;border-bottom:1px solid #e8d8b8;font-size:14px}
+.info-row:last-child{border:none}
+.info-label{width:120px;color:var(--gray);font-weight:700;flex-shrink:0}
+.info-val{color:var(--dark);font-weight:700}
+
+footer{background:var(--dark);color:#aaa;text-align:center;padding:24px 16px;font-size:12px}
+
+/* === 固定下部 === */
+.fixed-cta{
+  position:fixed;bottom:0;left:0;right:0;z-index:100;display:flex;
+  box-shadow:0 -3px 10px rgba(0,0,0,.2);
+}
+.fixed-cta a{
+  flex:1;padding:14px 8px;text-align:center;color:#fff;font-weight:900;font-size:14px;
+  display:flex;flex-direction:column;justify-content:center;line-height:1.3;
+}
+.fx-line{background:var(--line)}
+.fx-tel{background:var(--orange)}
+.fx-line small,.fx-tel small{display:block;font-size:10px;font-weight:400;opacity:.85;margin-top:2px}
+
+@media(max-width:720px){
+  .header-logo .name{font-size:17px}
+  .header-tel .sub,.header-tel .hours{display:none}
+  .header-tel .num{font-size:17px}
+  .header-tel .ic{width:38px;height:38px}
+  .hero h1 .line2,.hero h1 .line3{font-size:28px}
+  .hero-badges{grid-template-columns:repeat(4,1fr);gap:6px;max-width:100%}
+  .hero-badge .k{font-size:16px}
+  .hero-badge .v{font-size:8px}
+  .hero-price .num{font-size:34px}
+  .campaign h2{font-size:22px}
+  .campaign .price-big .mega{font-size:50px}
+  .reasons-title .big{font-size:44px}
+  .reason{grid-template-columns:60px 1fr;gap:14px;padding:16px}
+  .guarantee .seal{width:110px;height:110px}
+  .guarantee .seal .n{font-size:34px}
+}
+</style>
+</head>
+<body>
+
+<div class="top-strip">千葉・東京・埼玉・神奈川・茨城｜蜂の巣駆除は蜂の達人にお任せください！</div>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      <img src="logo.png" alt="蜂の達人">
+      <span class="name">蜂の達人</span>
+    </div>
+    <a class="header-tel" href="tel:050-1724-4656">
+      <span class="ic">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.9.34 1.77.63 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.48a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.63A2 2 0 0 1 22 16.92z"/></svg>
+      </span>
+      <div class="info">
+        <div><span class="hours">受付時間</span><span class="sub">365日年中無休 24時間</span></div>
+        <span class="num">050-1724-4656</span>
+      </div>
+    </a>
+  </div>
+</header>
+
+<div class="area-band">
+  <span class="tag">✓ 対象エリア</span>千葉・東京・埼玉・神奈川・茨城 全域対応
+</div>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-tag">ハチに刺される前に</span>
+        <h1 style="position:relative">
+          <span class="hero-badge-circle"><span>最短</span><span class="big">30分</span><span>到着</span></span>
+          <span style="margin-left:110px;display:block">
+            <span class="line1">プロが速攻！</span>
+            <span class="line2">ハチを</span>
+            <span class="line3">徹底駆除！</span>
+          </span>
+        </h1>
+        <div class="hero-badges">
+          <div class="hero-badge"><div class="k">安全</div><div class="v">プロにお任せ</div></div>
+          <div class="hero-badge"><div class="k">確実</div><div class="v">徹底駆除</div></div>
+          <div class="hero-badge"><div class="k">迅速</div><div class="v">最短30分</div></div>
+          <div class="hero-badge"><div class="k">安心</div><div class="v">6ヶ月保証</div></div>
+        </div>
+        <div class="hero-price">
+          <div class="lbl">駆除料金</div>
+          <div class="val">
+            <span class="num">4,400</span>
+            <span class="yen">円〜</span>
+            <span class="tax">（税込）</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="hero-bg.png" alt="蜂駆除作業中のスタッフ">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="campaign">
+  <div class="campaign-inner">
+    <div class="campaign-stamp"><span>今月</span><span>限定！</span></div>
+    <div class="label">── 初めての方限定 ──</div>
+    <h2>LINE限定キャンペーン</h2>
+    <div class="price-big">LINEで写真を送るだけで<br><span class="mega">2,000</span>円 OFF</div>
+    <div class="campaign-ctas">
+      <a href="https://line.me/R/ti/p/@473zahbm" class="btn-line">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.631.63-.631h2.386c.346 0 .627.286.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zM24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINEで相談する
+      </a>
+      <a href="tel:050-1724-4656" class="btn-tel">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="var(--orange)"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.9.34 1.77.63 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.48a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.63A2 2 0 0 1 22 16.92z"/></svg>
+        電話で相談する
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="worries">
+  <h2>こんな<span class="stress">お悩み</span>はありませんか？</h2>
+  <div class="worries-list">
+    <div class="worries-item"><span class="chk">✓</span><p>気がついたら家に蜂の巣ができていた</p></div>
+    <div class="worries-item"><span class="chk">✓</span><p>家の近くで蜂が頻繁に飛んでいる</p></div>
+    <div class="worries-item"><span class="chk">✓</span><p>前に蜂に刺されたことがあり怖くて近寄れない</p></div>
+    <div class="worries-item"><span class="chk">✓</span><p>蜂の巣が高い所にあって自分では取れない</p></div>
+    <div class="worries-item"><span class="chk">✓</span><p>一度駆除したのに蜂が戻ってきた</p></div>
+  </div>
+  <div class="worries-cta">
+    <h3>蜂に刺されるリスクを避け、安全・確実に駆除したい方は<span class="strong">蜂駆除のプロ 蜂の達人へ</span></h3>
+  </div>
+</section>
+
+<section class="reasons">
+  <div class="reasons-title">
+    <div class="label">── RECOMMEND ──</div>
+    <div>「蜂の達人」が選ばれる</div>
+    <div class="big">5つの理由</div>
+  </div>
+
+  <div class="reasons-list">
+    <div class="reason">
+      <div class="reason-num"><div class="lbl">理由</div><div class="n">01</div></div>
+      <div class="reason-body">
+        <h3>蜂に刺されることなく、安全に駆除できる</h3>
+        <p>専用の防護服・革手袋・フェイスネットを着用し、安全第一で作業いたします。お客様・ご家族・ご近所の方に危険が及ばないよう細心の注意を払います。</p>
+      </div>
+    </div>
+    <div class="reason">
+      <div class="reason-num"><div class="lbl">理由</div><div class="n">02</div></div>
+      <div class="reason-body">
+        <h3>再発防止対策まで、徹底駆除！</h3>
+        <p>蜂の習性を知り尽くした経験豊富なスタッフが、再発防止のための徹底駆除をおこないます。戻り蜂対策も実施。再度同じ場所に蜂の巣ができた場合は無償で撤去いたします。</p>
+      </div>
+    </div>
+    <div class="reason">
+      <div class="reason-num"><div class="lbl">理由</div><div class="n">03</div></div>
+      <div class="reason-body">
+        <h3>最短30分で現場到着・迅速対応</h3>
+        <p>24時間365日受付。ご依頼から最短30分で現場にお伺いします。蜂は時間が経つほど危険度が増すため、気づいたらすぐにお電話ください。</p>
+      </div>
+    </div>
+    <div class="reason">
+      <div class="reason-num"><div class="lbl">理由</div><div class="n">04</div></div>
+      <div class="reason-body">
+        <h3>見積り無料・納得いかなければ費用ゼロ</h3>
+        <p>現地でのお見積りは完全無料。金額にご納得いただいてから作業を開始いたします。キャンセル料・出張費も一切いただきません。</p>
+      </div>
+    </div>
+    <div class="reason">
+      <div class="reason-num"><div class="lbl">理由</div><div class="n">05</div></div>
+      <div class="reason-body">
+        <h3>地域最安値挑戦・基本料金4,400円〜</h3>
+        <p>他社のお見積もりがあれば、同条件で価格を比較・ご提案します。対応エリア内なら出張費・見積り費も無料。LINE登録でさらに2,000円OFF。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="price-section">
+  <div class="sec-head">
+    <div class="label">── PRICING ──</div>
+    <h2>駆除料金</h2>
+    <p class="note">蜂の種類・巣の大きさ・設置場所により金額が変動します</p>
+  </div>
+  <div class="bee-grid">
+    <div class="bee-card">
+      <img src="mitsubachi.jpg" alt="ミツバチ">
+      <div class="bee-card-body">
+        <div class="kind">HONEY BEE</div>
+        <h3>ミツバチ</h3>
+        <div class="price">
+          <span class="lbl">基本料金</span>
+          <span class="num">4,400</span>
+          <span class="yen">円〜</span>
+        </div>
+        <ul>
+          <li>比較的おとなしい種類</li>
+          <li>集団で居着くと数千匹にも</li>
+          <li>ハチミツ処理も対応可能</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bee-card highlight">
+      <span class="ribbon">最も多いご依頼</span>
+      <img src="ashinagabachi.jpg" alt="アシナガバチ">
+      <div class="bee-card-body">
+        <div class="kind">PAPER WASP</div>
+        <h3>アシナガバチ</h3>
+        <div class="price">
+          <span class="lbl">基本料金</span>
+          <span class="num">8,800</span>
+          <span class="yen">円〜</span>
+        </div>
+        <ul>
+          <li>ベランダ・物置に多発</li>
+          <li>刺されると強い痛みと腫れ</li>
+          <li>複数回刺すためアナフィラキシー注意</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="bee-card">
+      <span class="ribbon" style="background:#b30028">要注意</span>
+      <img src="suzumebachi.jpg" alt="スズメバチ">
+      <div class="bee-card-body">
+        <div class="kind">HORNET</div>
+        <h3>スズメバチ</h3>
+        <div class="price">
+          <span class="lbl">基本料金</span>
+          <span class="num">16,500</span>
+          <span class="yen">円〜</span>
+        </div>
+        <ul>
+          <li>非常に攻撃的・極めて危険</li>
+          <li>屋根裏・軒下に球状の巣</li>
+          <li>ご自身での駆除は絶対NG</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="flow-section">
+  <div class="sec-head">
+    <div class="label">── FLOW ──</div>
+    <h2>ご依頼の流れ</h2>
+    <p class="note">お電話1本で最短即日駆除</p>
+  </div>
+  <div class="flow-grid">
+    <div class="flow-step">
+      <div class="n">1</div>
+      <h3>お問い合わせ</h3>
+      <p>LINEで巣の写真を送るか、お電話で状況をお伝えください</p>
+    </div>
+    <div class="flow-step">
+      <div class="n">2</div>
+      <h3>現地調査・見積</h3>
+      <p>最短30分で現場へ。巣の大きさ・場所を確認しお見積りをご提示</p>
+    </div>
+    <div class="flow-step">
+      <div class="n">3</div>
+      <h3>駆除作業</h3>
+      <p>金額にご納得いただいてから作業開始。近隣にも配慮しながら駆除</p>
+    </div>
+    <div class="flow-step">
+      <div class="n">4</div>
+      <h3>お支払い・保証</h3>
+      <p>現金・銀行振込・PayPayに対応。6ヶ月の再発保証書をお渡しします</p>
+    </div>
+  </div>
+</section>
+
+<section class="guarantee">
+  <div class="seal"><div class="n">6</div><div class="l">ヶ月保証</div></div>
+  <h2>6ヶ月の再発保証</h2>
+  <p>駆除後6ヶ月以内に同じ場所で蜂の巣が再発した場合、<br>追加料金なしで再施工いたします。現地見積り無料・納得いただけなければ費用¥0。</p>
+</section>
+
+<section class="faq-section">
+  <div class="sec-head">
+    <div class="label">── FAQ ──</div>
+    <h2>よくあるご質問</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item" open>
+      <summary class="faq-q"><span class="q">Q</span>見積りだけでも大丈夫ですか？<span class="arrow">＋</span></summary>
+      <div class="faq-a"><span class="a">A</span>はい、お見積りは完全無料です。ご納得いただけない場合はキャンセル料もかかりません。</div>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="q">Q</span>当日対応は可能ですか？<span class="arrow">＋</span></summary>
+      <div class="faq-a"><span class="a">A</span>はい、最短30分で現場へお伺いします。お急ぎの場合はお電話（050-1724-4656）でご連絡ください。</div>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="q">Q</span>夜間や早朝でも対応してもらえますか？<span class="arrow">＋</span></summary>
+      <div class="faq-a"><span class="a">A</span>24時間365日受付しております。夜間・早朝・土日祝も追加料金なしで対応いたします。</div>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="q">Q</span>支払い方法は？<span class="arrow">＋</span></summary>
+      <div class="faq-a"><span class="a">A</span>現金・銀行振込・PayPayの3種類に対応しています。領収書の発行も可能です。</div>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-q"><span class="q">Q</span>駆除した後に再発したら？<span class="arrow">＋</span></summary>
+      <div class="faq-a"><span class="a">A</span>6ヶ月以内の同一箇所での再発は、無料で再施工いたします。保証書をお渡ししますので安心してご依頼ください。</div>
+    </details>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>今すぐ友だち追加で</h2>
+  <div class="off">2,000円 OFF</div>
+  <p>LINEで巣の写真を送るだけで、お見積り・即日対応OK</p>
+  <a href="https://line.me/R/ti/p/@473zahbm" class="final-cta-btn">LINEで友だち追加する</a>
+</section>
+
+<section class="info-section">
+  <div class="sec-head">
+    <div class="label">── COMPANY ──</div>
+    <h2>事業情報</h2>
+  </div>
+  <div class="info-grid">
+    <div class="info-row"><span class="info-label">屋号</span><span class="info-val">蜂の達人</span></div>
+    <div class="info-row"><span class="info-label">電話番号</span><span class="info-val"><a href="tel:050-1724-4656" style="color:var(--orange)">050-1724-4656</a></span></div>
+    <div class="info-row"><span class="info-label">受付時間</span><span class="info-val">24時間 365日年中無休</span></div>
+    <div class="info-row"><span class="info-label">対応エリア</span><span class="info-val">千葉・東京・埼玉・神奈川・茨城</span></div>
+    <div class="info-row"><span class="info-label">決済方法</span><span class="info-val">現金 / 銀行振込 / PayPay</span></div>
+  </div>
+</section>
+
+<footer>&copy; 2026 蜂の達人 All Rights Reserved.</footer>
+
+<div class="fixed-cta">
+  <a href="https://line.me/R/ti/p/@473zahbm" class="fx-line">LINE相談<small>2,000円OFF</small></a>
+  <a href="tel:050-1724-4656" class="fx-tel">電話で相談<small>050-1724-4656</small></a>
+</div>
+
+</body>
+</html>
