@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>【緊急】蜂駆除｜刺される前に今すぐ｜蜂の達人 050-1724-4656</title>
+<meta name="description" content="放置すると家族が刺される。スズメバチ・アシナガバチは命の危険。24時間365日、最短即日対応。基本料金4,400円〜。千葉・東京・埼玉・神奈川・茨城。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Bebas+Neue&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#0a0a0a;
+  --black-2:#171717;
+  --red:#dc2626;
+  --red-dk:#991b1b;
+  --red-light:#fee2e2;
+  --yellow:#fbbf24;
+  --yellow-dk:#b45309;
+  --white:#ffffff;
+  --gray:#525252;
+  --gray-light:#a3a3a3;
+  --bg:#0a0a0a;
+  --line-green:#06c755;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  font-family:'Noto Sans JP',-apple-system,sans-serif;
+  color:var(--white);background:var(--black);
+  line-height:1.7;-webkit-font-smoothing:antialiased;
+  padding-bottom:88px;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* === 緊急アラートバー (scrolling) === */
+.emergency-bar{
+  background:var(--red);color:var(--white);
+  overflow:hidden;white-space:nowrap;
+  padding:8px 0;font-weight:700;font-size:13px;letter-spacing:.05em;
+  border-bottom:2px solid var(--yellow);
+}
+.emergency-bar .track{
+  display:inline-block;animation:scroll 22s linear infinite;padding-left:100%;
+}
+.emergency-bar .track span{margin-right:48px}
+@keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}
+
+/* === ヘッダー === */
+.header{
+  position:sticky;top:0;z-index:50;
+  background:var(--black);border-bottom:1px solid #262626;
+}
+.header-inner{
+  max-width:1200px;margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.header-logo{display:flex;align-items:center;gap:10px}
+.header-logo img{height:42px;border-radius:50%;background:#fff;padding:2px}
+.header-logo .name{font-weight:900;font-size:18px;letter-spacing:.08em}
+.header-tel{
+  display:flex;align-items:center;gap:8px;
+  background:var(--red);padding:8px 14px;border-radius:6px;
+  border:2px solid var(--yellow);font-weight:900;
+  box-shadow:0 0 0 0 var(--red);animation:pulse 1.4s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(220,38,38,.7)}
+  70%{box-shadow:0 0 0 10px rgba(220,38,38,0)}
+  100%{box-shadow:0 0 0 0 rgba(220,38,38,0)}
+}
+.header-tel .num{font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:1px}
+.header-tel .lbl{font-size:10px;letter-spacing:.15em}
+
+/* === ヒーロー === */
+.hero{
+  position:relative;padding:60px 20px 80px;
+  background:
+    linear-gradient(180deg,rgba(10,10,10,.85) 0%,rgba(10,10,10,.95) 100%),
+    repeating-linear-gradient(45deg,#171717 0 20px,#0a0a0a 20px 40px);
+  text-align:center;overflow:hidden;
+}
+.hero::before{
+  content:"⚠";position:absolute;font-size:400px;color:rgba(220,38,38,.05);
+  top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;
+}
+.caution-tape{
+  display:inline-block;background:var(--yellow);color:var(--black);
+  font-weight:900;font-size:12px;letter-spacing:.3em;padding:6px 18px;
+  margin-bottom:24px;position:relative;
+  border-left:4px solid var(--black);border-right:4px solid var(--black);
+}
+.hero h1{
+  font-size:clamp(30px,6vw,54px);font-weight:900;line-height:1.3;
+  margin-bottom:16px;letter-spacing:.02em;
+}
+.hero h1 .red{color:var(--red);text-shadow:0 0 20px rgba(220,38,38,.5)}
+.hero h1 .yellow{color:var(--yellow)}
+.hero h1 .strike{text-decoration:line-through;color:var(--gray-light);font-weight:700}
+.hero-sub{
+  font-size:16px;color:var(--gray-light);margin:24px auto 36px;
+  max-width:560px;line-height:1.9;
+}
+.hero-stats{
+  display:flex;justify-content:center;gap:32px;flex-wrap:wrap;
+  margin:36px auto 48px;max-width:720px;
+}
+.hero-stat{
+  background:rgba(220,38,38,.1);border:1px solid var(--red);
+  border-radius:8px;padding:20px 28px;min-width:160px;
+}
+.hero-stat .num{font-family:'Bebas Neue',sans-serif;font-size:44px;color:var(--red);line-height:1}
+.hero-stat .lbl{font-size:11px;color:var(--gray-light);letter-spacing:.12em;margin-top:8px}
+
+.hero-ctas{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:8px}
+.cta-tel{
+  background:var(--red);color:var(--white);
+  padding:18px 36px;border-radius:8px;
+  font-weight:900;font-size:18px;letter-spacing:.05em;
+  border:2px solid var(--yellow);
+  box-shadow:0 0 30px rgba(220,38,38,.4);
+  display:inline-flex;align-items:center;gap:10px;
+  animation:pulse 1.4s infinite;
+}
+.cta-tel .num{font-family:'Bebas Neue',sans-serif;font-size:24px}
+.cta-line{
+  background:var(--line-green);color:var(--white);
+  padding:18px 36px;border-radius:8px;
+  font-weight:900;font-size:16px;letter-spacing:.05em;
+  display:inline-flex;align-items:center;gap:10px;
+  box-shadow:0 8px 16px rgba(0,0,0,.3);
+}
+
+/* === セクション === */
+section{padding:72px 20px;background:var(--black)}
+section.inverse{background:var(--white);color:var(--black)}
+.wrap{max-width:980px;margin:0 auto}
+.sec-title{
+  text-align:center;font-size:clamp(24px,4vw,36px);font-weight:900;
+  margin-bottom:12px;letter-spacing:.02em;line-height:1.4;
+}
+.sec-title .red{color:var(--red)}
+.sec-sub{text-align:center;color:var(--gray-light);font-size:13px;letter-spacing:.2em;margin-bottom:48px}
+section.inverse .sec-sub{color:var(--gray)}
+
+/* === 危険シグナル === */
+.danger-signals{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:16px;margin-top:32px;
+}
+.signal{
+  background:var(--black-2);border:1px solid var(--red);border-radius:8px;
+  padding:24px;position:relative;overflow:hidden;
+}
+.signal::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:repeating-linear-gradient(90deg,var(--yellow) 0 10px,var(--black) 10px 20px);
+}
+.signal h3{font-weight:900;font-size:17px;margin-bottom:10px;color:var(--yellow)}
+.signal p{font-size:13px;color:#e5e5e5;line-height:1.9}
+.signal .check{color:var(--red);margin-right:6px;font-weight:900}
+
+/* === 緊急度マトリクス === */
+.urgency-table{
+  width:100%;border-collapse:collapse;margin-top:24px;
+  background:var(--black-2);border:1px solid #404040;
+}
+.urgency-table th{
+  background:var(--red);color:var(--white);padding:14px 10px;
+  font-size:13px;font-weight:900;letter-spacing:.1em;text-align:center;
+}
+.urgency-table td{
+  padding:14px 12px;border-top:1px solid #333;font-size:14px;
+  text-align:center;color:#e5e5e5;
+}
+.urgency-table tbody tr:nth-child(2){background:rgba(251,191,36,.08)}
+.urgency-table tbody tr:nth-child(3){background:rgba(220,38,38,.12)}
+.level{
+  display:inline-block;padding:4px 12px;border-radius:4px;
+  font-weight:900;font-size:11px;letter-spacing:.1em;
+}
+.level-safe{background:#16a34a;color:#fff}
+.level-warn{background:var(--yellow);color:var(--black)}
+.level-danger{background:var(--red);color:#fff;animation:pulse 1.8s infinite}
+
+/* === 蜂種別 === */
+.bee-cards{display:grid;grid-template-columns:1fr;gap:20px;margin-top:32px}
+@media(min-width:720px){.bee-cards{grid-template-columns:repeat(3,1fr)}}
+.bee-card{
+  background:var(--black-2);border:1px solid #404040;border-radius:8px;
+  overflow:hidden;position:relative;
+}
+.bee-card.danger{border:2px solid var(--red)}
+.bee-card .tag{
+  position:absolute;top:12px;right:12px;z-index:2;
+  background:var(--red);color:#fff;padding:5px 10px;border-radius:4px;
+  font-size:11px;font-weight:900;letter-spacing:.1em;
+}
+.bee-card img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.bee-card-body{padding:20px}
+.bee-card-body h3{font-size:20px;font-weight:900;margin-bottom:6px}
+.bee-card-body .sub{font-size:12px;color:var(--gray-light);letter-spacing:.1em;margin-bottom:12px}
+.bee-card-body .price{font-family:'Bebas Neue',sans-serif;font-size:36px;color:var(--yellow);line-height:1}
+.bee-card-body .price .yen{font-size:18px;color:#e5e5e5;font-family:'Noto Sans JP';margin-left:4px}
+.bee-card-body ul{margin-top:14px;list-style:none}
+.bee-card-body li{font-size:13px;padding:4px 0;color:#e5e5e5}
+.bee-card-body li::before{content:"▶ ";color:var(--red);font-weight:900}
+
+/* === 緊急対応時間 === */
+.response-time{
+  background:linear-gradient(90deg,var(--red) 0%,var(--red-dk) 100%);
+  padding:40px 20px;text-align:center;
+  border-top:3px solid var(--yellow);border-bottom:3px solid var(--yellow);
+}
+.response-time .huge{
+  font-family:'Bebas Neue',sans-serif;font-size:88px;line-height:1;color:var(--yellow);
+}
+.response-time p{font-size:14px;letter-spacing:.15em;margin-top:10px}
+
+/* === 実話 === */
+.testimonial{
+  background:var(--black-2);border-left:4px solid var(--red);
+  padding:24px;margin-top:20px;position:relative;
+}
+.testimonial::before{
+  content:"\201C";position:absolute;top:-18px;left:16px;
+  font-size:80px;color:var(--red);font-family:serif;line-height:1;
+}
+.testimonial h4{font-size:15px;font-weight:900;margin-bottom:8px;color:var(--yellow)}
+.testimonial p{font-size:13.5px;color:#e5e5e5;line-height:1.9}
+.testimonial .who{font-size:11px;color:var(--gray-light);margin-top:10px;letter-spacing:.1em}
+
+/* === セルフチェック === */
+.checklist{
+  background:var(--black-2);border:2px solid var(--yellow);border-radius:8px;
+  padding:28px 24px;margin-top:32px;
+}
+.checklist h3{
+  text-align:center;font-size:20px;font-weight:900;color:var(--yellow);
+  margin-bottom:20px;
+}
+.checklist li{
+  list-style:none;padding:14px 0 14px 40px;border-bottom:1px dashed #404040;
+  position:relative;font-size:14px;color:#e5e5e5;line-height:1.8;
+}
+.checklist li:last-child{border:none}
+.checklist li::before{
+  content:"□";position:absolute;left:6px;top:12px;
+  color:var(--yellow);font-size:22px;font-weight:900;line-height:1;
+}
+.checklist-alert{
+  margin-top:20px;padding:16px;background:var(--red);color:#fff;
+  text-align:center;font-weight:900;font-size:15px;border-radius:6px;
+}
+
+/* === 保証 === */
+.guarantee-section{background:var(--white);color:var(--black)}
+.guarantee-box{
+  border:3px dashed var(--red);padding:40px 24px;text-align:center;
+  margin-top:32px;background:#fff8f8;
+}
+.guarantee-box .seal{
+  display:inline-block;background:var(--red);color:#fff;
+  width:120px;height:120px;border-radius:50%;
+  display:inline-flex;align-items:center;justify-content:center;flex-direction:column;
+  font-weight:900;font-size:13px;letter-spacing:.1em;line-height:1.3;
+  box-shadow:0 8px 20px rgba(220,38,38,.3);margin-bottom:20px;
+}
+.guarantee-box .seal .big{font-family:'Bebas Neue',sans-serif;font-size:32px;display:block}
+.guarantee-box h3{font-size:22px;font-weight:900;margin-bottom:12px}
+.guarantee-box p{font-size:14px;color:var(--gray);line-height:1.9}
+
+/* === 最終CTA === */
+.final-cta{
+  background:
+    linear-gradient(0deg,rgba(10,10,10,.9),rgba(10,10,10,.9)),
+    repeating-linear-gradient(-45deg,var(--red) 0 30px,var(--red-dk) 30px 60px);
+  text-align:center;padding:64px 20px;
+}
+.final-cta h2{font-size:clamp(24px,5vw,40px);font-weight:900;margin-bottom:16px;line-height:1.4}
+.final-cta h2 .big{color:var(--yellow);font-family:'Bebas Neue',sans-serif;font-size:1.5em;display:block}
+.final-cta p{font-size:15px;color:#e5e5e5;margin-bottom:32px}
+.final-cta .ctas{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.final-cta .cta-tel{font-size:22px;padding:22px 48px}
+.final-cta .cta-tel .num{font-size:32px}
+
+/* === フッター === */
+footer{background:#000;color:var(--gray-light);text-align:center;padding:32px 20px;font-size:12px;letter-spacing:.1em}
+footer .info{margin-bottom:12px;color:#e5e5e5;font-size:13px}
+
+/* === 固定CTA === */
+.fixed-cta{
+  position:fixed;bottom:0;left:0;right:0;z-index:100;
+  display:flex;background:var(--black);
+  border-top:2px solid var(--yellow);
+}
+.fixed-cta a{
+  flex:1;text-align:center;padding:14px 8px;
+  font-weight:900;font-size:14px;line-height:1.3;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;
+}
+.fixed-cta .fx-tel{background:var(--red);color:#fff;animation:pulse 1.4s infinite}
+.fixed-cta .fx-tel .num{font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:1px}
+.fixed-cta .fx-tel small{font-size:10px;font-weight:400;opacity:.9}
+.fixed-cta .fx-line{background:var(--line-green);color:#fff}
+.fixed-cta .fx-line small{font-size:10px;font-weight:400;opacity:.9;display:block}
+
+@media(max-width:640px){
+  .header-tel .lbl{display:none}
+  .header-logo .name{font-size:15px}
+  section{padding:48px 16px}
+  .hero{padding:40px 16px 60px}
+  .hero-stat{min-width:130px;padding:14px 18px}
+  .hero-stat .num{font-size:32px}
+  .bee-card-body .price{font-size:28px}
+  .response-time .huge{font-size:60px}
+}
+</style>
+</head>
+<body>
+
+<div class="emergency-bar">
+  <div class="track">
+    <span>⚠ スズメバチ刺傷による死亡事故 年間20人前後</span>
+    <span>⚠ 巣の放置は危険・刺されたら命にかかわります</span>
+    <span>⚠ 最短即日対応 今すぐ 050-1724-4656</span>
+    <span>⚠ スズメバチ刺傷による死亡事故 年間20人前後</span>
+    <span>⚠ 巣の放置は危険・刺されたら命にかかわります</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="header-logo">
+      <img src="logo.png" alt="蜂の達人">
+      <span class="name">蜂の達人</span>
+    </div>
+    <a href="tel:050-1724-4656" class="header-tel">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.9.34 1.77.63 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.48a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.63A2 2 0 0 1 22 16.92z"/></svg>
+      <div>
+        <span class="lbl">緊急ダイヤル</span>
+        <span class="num">050-1724-4656</span>
+      </div>
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="caution-tape">⚠ 放置は危険です ⚠</div>
+  <h1>
+    その蜂の巣、<br>
+    <span class="red">放置すれば家族が刺される。</span><br>
+    <span class="yellow">今すぐ駆除</span>
+  </h1>
+  <p class="hero-sub">
+    蜂は突然襲ってきます。特にスズメバチは巣に近づいただけで攻撃してきます。<br>
+    「様子を見よう」その判断が、あなたの家族を危険にさらします。
+  </p>
+
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="num">20人</div>
+      <div class="lbl">年間死亡者数（蜂刺傷）</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num">1万人</div>
+      <div class="lbl">年間救急搬送</div>
+    </div>
+    <div class="hero-stat">
+      <div class="num">2回目</div>
+      <div class="lbl">刺されるとショック症状</div>
+    </div>
+  </div>
+
+  <div class="hero-ctas">
+    <a href="tel:050-1724-4656" class="cta-tel">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.9.34 1.77.63 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.48a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.63A2 2 0 0 1 22 16.92z"/></svg>
+      緊急電話 <span class="num">050-1724-4656</span>
+    </a>
+    <a href="https://line.me/R/ti/p/@473zahbm" class="cta-line">
+      LINE相談（2,000円OFF）
+    </a>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title"><span class="red">こんな症状</span>、見逃していませんか？</h2>
+    <p class="sec-sub">D A N G E R　S I G N A L S</p>
+
+    <div class="danger-signals">
+      <div class="signal">
+        <h3>⚠ 軒下・ベランダで蜂をよく見る</h3>
+        <p><span class="check">●</span>近くに巣がある可能性が高い。発見が遅れるほど巣は急成長します。</p>
+      </div>
+      <div class="signal">
+        <h3>⚠ 同じ場所を行き来する蜂がいる</h3>
+        <p><span class="check">●</span>蜂は巣と餌場を往復します。見失った方向に巣が必ずあります。</p>
+      </div>
+      <div class="signal">
+        <h3>⚠ 子ども・ペットが近くで遊ぶ</h3>
+        <p><span class="check">●</span>蜂は動くものに反応。刺激すれば一斉に襲ってきます。</p>
+      </div>
+      <div class="signal">
+        <h3>⚠ 近所で刺された人がいる</h3>
+        <p><span class="check">●</span>巣は半径50m圏内にある可能性大。あなたの家が次かもしれません。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="response-time">
+  <div class="huge">最短30分</div>
+  <p>受付 → 現場到着</p>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title"><span class="red">蜂の種類別・危険度</span></h2>
+    <p class="sec-sub">T H R E A T　L E V E L</p>
+
+    <table class="urgency-table">
+      <thead>
+        <tr><th>種類</th><th>攻撃性</th><th>毒性</th><th>放置リスク</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>ミツバチ</b></td>
+          <td><span class="level level-safe">低</span></td>
+          <td><span class="level level-safe">弱</span></td>
+          <td>刺激しなければ比較的安全</td>
+        </tr>
+        <tr>
+          <td><b>アシナガバチ</b></td>
+          <td><span class="level level-warn">中</span></td>
+          <td><span class="level level-warn">中</span></td>
+          <td>刺されると激痛・腫れ</td>
+        </tr>
+        <tr>
+          <td><b>スズメバチ</b></td>
+          <td><span class="level level-danger">極</span></td>
+          <td><span class="level level-danger">致死</span></td>
+          <td><b style="color:var(--red)">命の危険あり</b></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="bee-cards">
+      <div class="bee-card">
+        <img src="mitsubachi.jpg" alt="ミツバチ">
+        <div class="bee-card-body">
+          <h3>ミツバチ</h3>
+          <div class="sub">HONEY BEE</div>
+          <div class="price">4,400<span class="yen">円〜</span></div>
+          <ul>
+            <li>比較的おとなしい</li>
+            <li>集団で居着くと大量の蜂</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bee-card danger">
+        <span class="tag">要注意</span>
+        <img src="ashinagabachi.jpg" alt="アシナガバチ">
+        <div class="bee-card-body">
+          <h3>アシナガバチ</h3>
+          <div class="sub">PAPER WASP</div>
+          <div class="price">8,800<span class="yen">円〜</span></div>
+          <ul>
+            <li>ベランダ・物置に多発</li>
+            <li>刺されると激痛・腫れ</li>
+            <li>複数回刺す＝アナフィラキシー</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bee-card danger">
+        <span class="tag">命の危険</span>
+        <img src="suzumebachi.jpg" alt="スズメバチ">
+        <div class="bee-card-body">
+          <h3>スズメバチ</h3>
+          <div class="sub">HORNET</div>
+          <div class="price">16,500<span class="yen">円〜</span></div>
+          <ul>
+            <li>非常に攻撃的</li>
+            <li>毒性が極めて強い</li>
+            <li>自分での駆除は絶対NG</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">放置した結果、<span class="red">こうなりました</span></h2>
+    <p class="sec-sub">R E A L　C A S E S</p>
+
+    <div class="testimonial">
+      <h4>「たった2週間で倍の大きさに」</h4>
+      <p>軒下に小さな巣を見つけたけど、忙しくて放置。2週間後に見たら倍以上の大きさになっていて、蜂が何十匹も飛び回っていました。子どもが遊ぶベランダなので、慌てて依頼しました。</p>
+      <p class="who">— 千葉県 / 40代 女性</p>
+    </div>
+
+    <div class="testimonial">
+      <h4>「帰宅時にスズメバチの大群に襲われた」</h4>
+      <p>屋根裏に巣があるとは知らず、そのまま生活。秋になって蜂の数が急に増え、帰宅時に玄関で突然襲われました。刺された翌日、意識を失いかけて救急搬送されました。</p>
+      <p class="who">— 埼玉県 / 50代 男性</p>
+    </div>
+
+    <div class="testimonial">
+      <h4>「市販スプレーで逆に攻撃された」</h4>
+      <p>自分で駆除しようと市販スプレーを使ったら、蜂が一斉に興奮。数十か所刺され、全身が腫れ上がりました。最初からプロに頼めば良かった。</p>
+      <p class="who">— 東京都 / 30代 男性</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="sec-title">あなたの家は<span class="red">大丈夫ですか？</span></h2>
+    <p class="sec-sub">S E L F　C H E C K</p>
+
+    <div class="checklist">
+      <h3>⚠ 1つでも当てはまれば、今すぐご相談ください</h3>
+      <ul>
+        <li>庭や軒先で蜂を日常的に見かける</li>
+        <li>軒下・屋根裏・物置・ベランダに蜂の出入りがある</li>
+        <li>小さくても巣のようなものを見つけた</li>
+        <li>最近、家の周りで蜂の数が急増している</li>
+        <li>蜂が同じ場所を行き来している</li>
+        <li>子ども・高齢者・ペットがいる家庭</li>
+      </ul>
+      <div class="checklist-alert">
+        ⚠ 放置するほど巣は大きくなり、駆除費用も高くなります
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="inverse guarantee-section">
+  <div class="wrap">
+    <h2 class="sec-title">絶対の<span class="red">安心保証</span></h2>
+    <p class="sec-sub" style="color:var(--gray)">O U R　P R O M I S E</p>
+
+    <div class="guarantee-box">
+      <div class="seal">
+        <span class="big">6</span>
+        ヶ月<br>再発保証
+      </div>
+      <h3>駆除後6ヶ月以内の再発は無料で対応</h3>
+      <p>万が一、同じ場所で蜂の巣が再発した場合、<br>追加料金なしで再施工いたします。<br>現地見積り無料・納得いただけなければ費用¥0。</p>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <h2>
+    その巣、明日にはもっと大きくなります。<br>
+    <span class="big">今すぐ、電話を。</span>
+  </h2>
+  <p>24時間365日受付・最短30分で到着・基本料金4,400円〜</p>
+  <div class="ctas">
+    <a href="tel:050-1724-4656" class="cta-tel">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.13.9.34 1.77.63 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.48a2 2 0 0 1 2.11-.45c.83.29 1.7.5 2.6.63A2 2 0 0 1 22 16.92z"/></svg>
+      <span class="num">050-1724-4656</span>
+    </a>
+    <a href="https://line.me/R/ti/p/@473zahbm" class="cta-line">
+      LINE相談（2,000円OFF）
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="info">
+    屋号：蜂の達人 ／ 電話：050-1724-4656 ／ 対応エリア：千葉・東京・埼玉・神奈川・茨城<br>
+    24時間365日受付 ／ 見積無料 ／ 決済：現金・銀行振込・PayPay
+  </div>
+  &copy; 2026 蜂の達人. All rights reserved.
+</footer>
+
+<div class="fixed-cta">
+  <a href="tel:050-1724-4656" class="fx-tel">
+    <small>⚠ 緊急電話</small>
+    <span class="num">050-1724-4656</span>
+  </a>
+  <a href="https://line.me/R/ti/p/@473zahbm" class="fx-line">
+    LINE相談
+    <small>2,000円OFF</small>
+  </a>
+</div>
+
+</body>
+</html>
