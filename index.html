@@ -354,6 +354,46 @@ img{max-width:100%;display:block}
 .guarantee h2{font-size:26px;font-weight:900;margin-bottom:14px}
 .guarantee p{font-size:15px;color:#ddd;line-height:2;max-width:640px;margin:0 auto}
 
+/* === 動画セクション === */
+.videos-section{background:var(--orange-light);padding:64px 16px}
+.videos-grid{
+  max-width:1100px;margin:32px auto 0;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+}
+.video-card{
+  background:#fff;border-radius:14px;overflow:hidden;
+  box-shadow:0 4px 14px rgba(0,0,0,.08);
+  transition:transform .2s;
+}
+.video-card:hover{transform:translateY(-4px)}
+.video-thumb{
+  position:relative;aspect-ratio:9/16;
+  overflow:hidden;background:#000;
+}
+.video-thumb iframe{
+  width:100%;height:100%;border:0;display:block;
+}
+.video-info{padding:16px 14px 18px}
+.video-info h3{
+  font-size:14px;font-weight:900;color:var(--dark);
+  line-height:1.5;margin-bottom:8px;
+}
+.video-info p{
+  font-size:12px;color:var(--gray);line-height:1.7;
+}
+.videos-cta{
+  text-align:center;margin-top:32px;
+}
+.videos-cta a{
+  display:inline-block;
+  background:#ff0000;color:#fff;
+  padding:14px 30px;border-radius:30px;
+  font-size:14px;font-weight:900;
+  box-shadow:0 4px 0 #b80000;
+}
+.videos-cta a:hover{background:#cc0000}
+
 /* === FAQ === */
 .faq-section{background:#fff;padding:64px 16px}
 .faq-list{max-width:780px;margin:0 auto}
@@ -670,6 +710,47 @@ footer{background:var(--dark);color:#aaa;text-align:center;padding:24px 16px;fon
   <div class="seal"><div class="n">6</div><div class="l">ヶ月保証</div></div>
   <h2>6ヶ月の再発保証</h2>
   <p>駆除後6ヶ月以内に同じ場所で蜂の巣が再発した場合、<br>追加料金なしで再施工いたします。現地見積り無料・納得いただけなければ費用¥0。</p>
+</section>
+
+<!-- === 実際の駆除動画 === -->
+<section class="videos-section">
+  <div class="sec-head">
+    <div class="label">── 駆除実績 ──</div>
+    <h2>実際の駆除動画</h2>
+    <div class="note">プロが現場で撮影した、リアルな駆除映像をご覧ください</div>
+  </div>
+  <div class="videos-grid">
+    <article class="video-card">
+      <div class="video-thumb">
+        <iframe src="https://www.youtube.com/embed/vi3jUPLPzL8" title="マンションの換気扇から大量のミツバチの巣" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="video-info">
+        <h3>マンション換気扇ダクト内の大量ミツバチ駆除</h3>
+        <p>外からも中からも見えない、ダクト奥に潜んだ巣を天井裏から切断アプローチで完全撤去した実例</p>
+      </div>
+    </article>
+    <article class="video-card">
+      <div class="video-thumb">
+        <iframe src="https://www.youtube.com/embed/AE1BQNOqd9E" title="蜂が最凶になる瞬間TOP3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="video-info">
+        <h3>9割が知らない 蜂が最凶になる瞬間TOP3</h3>
+        <p>刺されないために知っておくべき、蜂が攻撃モードに入る3つのきっかけを解説</p>
+      </div>
+    </article>
+    <article class="video-card">
+      <div class="video-thumb">
+        <iframe src="https://www.youtube.com/embed/SISMxxKI5Qg" title="蜂が黒い服を襲う本当の理由" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      <div class="video-info">
+        <h3>【知らないと危険】蜂が"黒い服"を襲う本当の理由</h3>
+        <p>蜂駆除のプロが教える、刺されないための服装選びのポイント</p>
+      </div>
+    </article>
+  </div>
+  <div class="videos-cta">
+    <a href="https://www.youtube.com/channel/UCOrSyFUbm22AITFuCl0MmGQ" target="_blank" rel="noopener">▶ YouTubeチャンネルで他の動画を見る</a>
+  </div>
 </section>
 
 <section class="faq-section">
